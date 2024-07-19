@@ -1,5 +1,7 @@
 # PythonPractice
 A repository containing all the practice Python projects and activities.
+Contains only the files/programs I edited or made from scratch. Other files
+given to run these programs are located with the original source.
 
 Directories:
 - PythonBasics -> 7/15/2024
