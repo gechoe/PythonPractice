@@ -11,8 +11,13 @@ Directories:
 
 - BuildStaticSiteGenerator
     - Contains 4 directories:
+        - Module1 is the first and the next (Module2) build on top of Module1's contents, Module 3 builds on top of Module2, and Module 4 builds on top of Module2
         - Module1
+            - Files: site.py & ssg.py
         - Module2
+            - Files: parsers.py, site.py, & ssg.py
         - Module3
+            - Files: content.py
         - Module4
+            - Files:
 
