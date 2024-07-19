@@ -4,7 +4,7 @@ A repository containing all the practice Python projects and activities.
 Directories:
 - PythonBasics -> 7/15/2024
     - Contents from -> Python Data Essentials: Python Introduction Hands-on Practice Code Lab on Pluralsight
-    - Contains 2 files:
+    - Contains 2 files (.ipynb):
         - 1_Understanding_Python_Identifiers__Literals__and_Operators.ipynb
             - Practice with Python literals and operators.
         - 2_Working_with_Python_Packages_and_Data_Structures.ipynb
