@@ -15,7 +15,7 @@ Directories:
 - BuildStaticSiteGenerator -> 7/19/2024
     - Contents from -> Build a Static Site Generator with Python project on Pluralsight
     - Contains 4 directories:
-        - Module1 is the first and the next (Module2) build on top of Module1's contents, Module 3 builds on top of Module2, and Module 4 builds on top of Module2
+        - Module1 is the first and the next (Module2) build on top of Module1's contents, Module3 builds on top of Module2, and Module4 builds on top of Module3
         - Module1
             - Files: site.py & ssg.py
         - Module2
@@ -27,4 +27,15 @@ Directories:
 
 - BuildPersonalBudgetReport -> 7/19/2024
     - Contents from -> Build a Personal Budget Report with Python Collections and Iterables project on Pluralsight
-    - Contains:
+    - Contains 5 directories:
+        - Module1 is the first and the next (Module2) build on top of Module1's contents, Module3 builds on top of Module2, Module4 builds on top of Module3, and Module5 builds on top of Module4 
+        - Module1
+            - Files: site.py & ssg.py
+        - Module2
+            - Files: parsers.py, site.py, & ssg.py
+        - Module3
+            - Files: content.py
+        - Module4
+            - Files: parsers.py, site.py, & ssg.py
+        - Module5
+            - Files:
