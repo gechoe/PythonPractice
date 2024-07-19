@@ -30,12 +30,12 @@ Directories:
     - Contains 5 directories:
         - Module1 is the first and the next (Module2) build on top of Module1's contents, Module3 builds on top of Module2, Module4 builds on top of Module3, and Module5 builds on top of Module4 
         - Module1
-            - Files: site.py & ssg.py
+            - Files: FrequentExpenses.py
         - Module2
-            - Files: parsers.py, site.py, & ssg.py
+            - Files: BudgetList.py
         - Module3
-            - Files: content.py
+            - Files: 
         - Module4
-            - Files: parsers.py, site.py, & ssg.py
+            - Files: 
         - Module5
             - Files:
