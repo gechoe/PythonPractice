@@ -34,8 +34,8 @@ Directories:
         - Module2
             - Files: BudgetList.py
         - Module3
-            - Files: 
+            - Files: BudgetList.py
         - Module4
-            - Files: 
+            - Files: Expense.py & ExpenseCategories.py
         - Module5
-            - Files:
+            - Files: ExpenseCategories.py

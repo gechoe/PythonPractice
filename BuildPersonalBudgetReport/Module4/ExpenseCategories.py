@@ -1,5 +1,5 @@
 from budget import Expense
-import matplotlib.pyplot as plt
+
 
 def main():
     expenses = Expense.Expenses()
