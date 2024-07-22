@@ -1,4 +1,5 @@
 Puzzle Preface:
+
 At RobberCity, it's really hard to send a parcel safely. Postmen are thiefs, and you can be sure that without a proper lock, your box will be opened and emptied prior to "delivery".
 This is a famous riddle: how can Alice send a parcel to Bob, without having to send the lock key?
 
