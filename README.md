@@ -42,6 +42,7 @@ Directories:
 
 - CodeinGameHackingRobberCityPuzzle -> 7/22/2024
     - Contents from -> Hacking RobberCity Puzzle from Codein Games
+        - Practicing cryptography concepts
         - Link: https://www.codingame.com/ide/puzzle/hacking-at-robbercity
     - Contains 2 files:
         - README.md
