@@ -39,3 +39,12 @@ Directories:
             - Files: Expense.py & ExpenseCategories.py
         - Module5
             - Files: ExpenseCategories.py
+
+- CodeinGameHackingRobberCityPuzzle -> 7/22/2024
+    - Contents from -> Hacking RobberCity Puzzle from Codein Games
+        - Link: https://www.codingame.com/ide/puzzle/hacking-at-robbercity
+    - Contains 2 files:
+        - README.md
+            - Contains the documentation of the problem statement, descriptio nof input and output values, and one example test case
+        - PuzzleSolution.py
+            - Contains the code solution to the problem
