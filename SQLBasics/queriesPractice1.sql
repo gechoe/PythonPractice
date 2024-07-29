@@ -112,13 +112,69 @@ SELECT *
 FROM Actors
 INNER JOIN Actors_Movies
 ON Actors.id = Actors_Movies.actor_id;
+
+SELECT Actors.name, Movies.title
+FROM Actors
+INNER JOIN Actors_Movies
+ON Actors.id = Actors_Movies.actor_id
+INNER JOIN Movies
+ON Actors_Movies.movie_id = Movies.id
+ORDER BY Movies.title;
+
 -- Practice 4.3 - Challenge: Column and Table Aliases
+SELECT m.title AS "Movie Title", r.id AS "Theatre Number", r.seats
+FROM Movies AS m
+INNER JOIN Rooms AS r
+ON m.id = r.movie_id
+WHERE r.seats > 75
+ORDER BY r.seats desc;
+
 -- Practice 4.4 - Challenge: Three Table Aliases
+SELECT a.name, m.title 
+FROM Actors AS a
+INNER JOIN Actors_Movies AS am
+ON a.id = am.actor_id
+INNER JOIN Movies AS m
+ON am.movie_id = m.id
+ORDER BY m.title;
+
 -- Practice 4.5 - Challenge: Your First Outer Join
+SELECT m.title, r.id AS "Theatre Number"
+FROM Movies AS m
+LEFT OUTER JOIN Rooms AS r
+ON m.id = r.movie_id;
+
 -- Practice 4.6 - Challenge: On the Other Hand
+SELECT m.title, r.id "Theatre Number"
+FROM Movies m
+RIGHT OUTER JOIN Rooms r
+ON m.id = r.movie_id;
 
 
 -- Part 5
 -- Practice 5.1 - Challenge: Our First Subquery
+SELECT title
+FROM Movies
+WHERE id IN (
+  SELECT movie_id
+  FROM Rooms
+  WHERE seats > 75
+);
+
 -- Practice 5.2 - Challenge: An Agregate Subquery
+SELECT id
+FROM Rooms
+WHERE seats > (
+  SELECT AVG(seats)
+  FROM Rooms
+);
+
 -- Practice 5.3 - Challenge: Thinking Outer of the Box
+SELECT r.id, m.title
+FROM Rooms AS r
+LEFT OUTER JOIN Movies AS m
+ON r.movie_id = m.id
+WHERE seats > (
+  SELECT AVG(seats)
+  FROM Rooms
+);
