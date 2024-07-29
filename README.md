@@ -46,6 +46,6 @@ Directories:
         - Link: https://www.codingame.com/ide/puzzle/hacking-at-robbercity
     - Contains 2 files:
         - README.md
-            - Contains the documentation of the problem statement, descriptio nof input and output values, and one example test case
+            - Contains the documentation of the problem statement, description of input and output values, and one example test case
         - PuzzleSolution.py
             - Contains the code solution to the problem
